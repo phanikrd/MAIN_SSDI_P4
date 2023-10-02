@@ -1,0 +1,42 @@
+/*
+CSS for the Project 4, Problem 2 States component
+
+Since CSS uses a global name space for classes we should use names starting with
+states- here.
+*/
+.states-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+ul.state-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+ul.state-list li {
+    font-size: 18px;
+    margin: 5px 0;
+}
